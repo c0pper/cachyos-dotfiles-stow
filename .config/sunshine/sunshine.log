@@ -1,178 +1,167 @@
-[2026-04-07 18:46:37.955]: Info: Sunshine version: 2025.924.154138 commit: 86188d47a7463b0f73b35de18a628353adeaa20e
-[2026-04-07 18:46:37.955]: Info: Package Publisher: LizardByte
-[2026-04-07 18:46:37.955]: Info: Publisher Website: https://app.lizardbyte.dev
-[2026-04-07 18:46:37.955]: Info: Get support: https://app.lizardbyte.dev/support
-[2026-04-07 18:46:38.235]: Error: Failed to create session: 
-[2026-04-07 18:46:38.235]: Info: Found display [wayland-1]
-[2026-04-07 18:46:38.235]: Info: Found interface: zxdg_output_manager_v1(9) version 3
-[2026-04-07 18:46:38.235]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
-[2026-04-07 18:46:38.235]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
-[2026-04-07 18:46:38.235]: Info: Found interface: wl_output(66) version 4
-[2026-04-07 18:46:38.235]: Info: Resolution: 1920x1080
-[2026-04-07 18:46:38.235]: Info: Name: HDMI-A-1
-[2026-04-07 18:46:38.235]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-07 18:46:38.235]: Info: Offset: 0x0
-[2026-04-07 18:46:38.235]: Info: Logical size: 1920x1080
-[2026-04-07 18:46:38.235]: Info: -------- Start of Wayland monitor list --------
-[2026-04-07 18:46:38.235]: Info: Monitor 0 is HDMI-A-1: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-07 18:46:38.235]: Info: --------- End of Wayland monitor list ---------
-[2026-04-07 18:46:38.268]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
-[2026-04-07 18:46:38.268]: Info: Trying encoder [nvenc]
-[2026-04-07 18:46:38.268]: Info: Screencasting with Wayland's protocol
-[2026-04-07 18:46:38.268]: Info: Found display [wayland-1]
-[2026-04-07 18:46:38.268]: Info: Found interface: zxdg_output_manager_v1(9) version 3
-[2026-04-07 18:46:38.268]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
-[2026-04-07 18:46:38.268]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
-[2026-04-07 18:46:38.268]: Info: Found interface: wl_output(66) version 4
-[2026-04-07 18:46:38.268]: Info: Resolution: 1920x1080
-[2026-04-07 18:46:38.268]: Info: Name: HDMI-A-1
-[2026-04-07 18:46:38.268]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-07 18:46:38.268]: Info: Offset: 0x0
-[2026-04-07 18:46:38.268]: Info: Logical size: 1920x1080
-[2026-04-07 18:46:38.268]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
-[2026-04-07 18:46:38.268]: Info: Creating encoder [h264_nvenc]
-[2026-04-07 18:46:38.268]: Info: Color coding: SDR (Rec. 601)
-[2026-04-07 18:46:38.268]: Info: Color depth: 8-bit
-[2026-04-07 18:46:38.268]: Info: Color range: JPEG
-[2026-04-07 18:46:38.413]: Info: Streaming bitrate is 1000000
-[2026-04-07 18:46:38.493]: Info: Creating encoder [hevc_nvenc]
-[2026-04-07 18:46:38.493]: Info: Color coding: SDR (Rec. 601)
-[2026-04-07 18:46:38.493]: Info: Color depth: 8-bit
-[2026-04-07 18:46:38.493]: Info: Color range: JPEG
-[2026-04-07 18:46:38.495]: Info: Streaming bitrate is 1000000
-[2026-04-07 18:46:38.533]: Info: Creating encoder [av1_nvenc]
-[2026-04-07 18:46:38.533]: Info: Color coding: SDR (Rec. 601)
-[2026-04-07 18:46:38.533]: Info: Color depth: 8-bit
-[2026-04-07 18:46:38.533]: Info: Color range: JPEG
-[2026-04-07 18:46:38.536]: Info: Streaming bitrate is 1000000
-[2026-04-07 18:46:38.541]: Warning: [av1_nvenc @ 0x563bae5d6c80] Codec not supported
-[2026-04-07 18:46:38.541]: Error: [av1_nvenc @ 0x563bae5d6c80] Provided device doesn't support required NVENC features
-[2026-04-07 18:46:38.543]: Error: Could not open codec [av1_nvenc]: Function not implemented
-[2026-04-07 18:46:38.544]: Info: Screencasting with Wayland's protocol
-[2026-04-07 18:46:38.544]: Info: Found display [wayland-1]
-[2026-04-07 18:46:38.544]: Info: Found interface: zxdg_output_manager_v1(9) version 3
-[2026-04-07 18:46:38.544]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
-[2026-04-07 18:46:38.544]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
-[2026-04-07 18:46:38.544]: Info: Found interface: wl_output(66) version 4
-[2026-04-07 18:46:38.544]: Info: Resolution: 1920x1080
-[2026-04-07 18:46:38.544]: Info: Name: HDMI-A-1
-[2026-04-07 18:46:38.544]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-07 18:46:38.544]: Info: Offset: 0x0
-[2026-04-07 18:46:38.544]: Info: Logical size: 1920x1080
-[2026-04-07 18:46:38.544]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
-[2026-04-07 18:46:38.544]: Info: Creating encoder [hevc_nvenc]
-[2026-04-07 18:46:38.544]: Info: Color coding: SDR (Rec. 709)
-[2026-04-07 18:46:38.544]: Info: Color depth: 10-bit
-[2026-04-07 18:46:38.544]: Info: Color range: JPEG
-[2026-04-07 18:46:38.547]: Info: Streaming bitrate is 1000000
-[2026-04-07 18:46:38.591]: Info: 
-[2026-04-07 18:46:38.592]: Info: // Ignore any errors mentioned above, they are not relevant. //
-[2026-04-07 18:46:38.592]: Info: 
-[2026-04-07 18:46:38.592]: Info: Found H.264 encoder: h264_nvenc [nvenc]
-[2026-04-07 18:46:38.592]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
-[2026-04-07 18:46:38.592]: Info: Starting system tray
-[2026-04-07 18:46:38.594]: Info: Configuration UI available at [https://localhost:47990]
-[2026-04-07 18:46:38.623]: Info: System tray created
-[2026-04-07 18:46:38.623]: Info: Starting main loop
-[2026-04-07 18:46:39.257]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:46:39.447]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:46:40.258]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:46:40.453]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:46:41.259]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:46:41.489]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:46:42.416]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:46:42.652]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:46:43.579]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:46:43.860]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:47:03.656]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:47:03.957]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:47:23.563]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:47:23.826]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:47:43.558]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:47:43.815]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:48:03.606]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:48:03.848]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:48:23.521]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:48:23.840]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:48:43.625]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:48:44.088]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:49:03.576]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:49:03.836]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:49:23.533]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:49:23.836]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:49:43.471]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:49:43.681]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:50:03.524]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:50:03.837]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:50:23.590]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:50:24.045]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:50:43.619]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:50:44.087]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:51:03.474]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:51:03.697]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:51:23.491]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:51:23.709]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:51:43.519]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:51:43.917]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:52:03.585]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:52:03.755]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:52:23.668]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:52:23.963]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:52:43.659]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:52:43.952]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:53:03.571]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:53:04.034]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:53:23.501]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:53:23.712]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:53:43.623]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:53:43.801]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:54:03.613]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:54:04.071]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:54:23.547]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:54:24.004]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:54:43.531]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:54:43.737]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:55:03.667]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:55:03.965]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:55:23.655]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:55:23.944]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:55:43.627]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:55:43.914]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:56:03.485]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:56:03.691]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:56:23.509]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:56:23.914]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:56:43.637]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:56:43.926]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:57:03.510]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:57:03.841]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:57:23.491]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:57:23.683]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:57:43.547]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:57:43.984]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:58:03.495]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:58:03.687]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:58:23.621]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:58:24.057]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:58:43.486]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:58:43.777]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:59:03.593]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:59:04.035]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:59:23.618]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:59:23.897]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 18:59:43.700]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 18:59:43.978]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 19:00:03.639]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 19:00:03.935]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 19:00:23.669]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 19:00:23.964]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 19:00:43.572]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 19:00:43.864]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 19:01:03.616]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 19:01:04.046]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 19:01:23.716]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 19:01:24.018]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 19:01:43.644]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 19:01:43.941]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 19:02:03.670]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 19:02:03.969]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:47:01.484]: Info: Sunshine version: 2025.924.154138 commit: 86188d47a7463b0f73b35de18a628353adeaa20e
+[2026-04-07 19:47:01.484]: Info: Package Publisher: LizardByte
+[2026-04-07 19:47:01.484]: Info: Publisher Website: https://app.lizardbyte.dev
+[2026-04-07 19:47:01.484]: Info: Get support: https://app.lizardbyte.dev/support
+[2026-04-07 19:47:01.759]: Error: Failed to create session: 
+[2026-04-07 19:47:01.759]: Info: Found display [wayland-1]
+[2026-04-07 19:47:01.759]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-04-07 19:47:01.759]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-04-07 19:47:01.759]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-04-07 19:47:01.759]: Info: Found interface: wl_output(66) version 4
+[2026-04-07 19:47:01.759]: Info: Resolution: 1920x1080
+[2026-04-07 19:47:01.759]: Info: Name: HDMI-A-1
+[2026-04-07 19:47:01.759]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 19:47:01.759]: Info: Offset: 0x0
+[2026-04-07 19:47:01.759]: Info: Logical size: 1920x1080
+[2026-04-07 19:47:01.759]: Info: -------- Start of Wayland monitor list --------
+[2026-04-07 19:47:01.759]: Info: Monitor 0 is HDMI-A-1: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 19:47:01.759]: Info: --------- End of Wayland monitor list ---------
+[2026-04-07 19:47:01.843]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-04-07 19:47:01.843]: Info: Trying encoder [nvenc]
+[2026-04-07 19:47:01.843]: Info: Screencasting with Wayland's protocol
+[2026-04-07 19:47:01.843]: Info: Found display [wayland-1]
+[2026-04-07 19:47:01.844]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-04-07 19:47:01.844]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-04-07 19:47:01.844]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-04-07 19:47:01.844]: Info: Found interface: wl_output(66) version 4
+[2026-04-07 19:47:01.844]: Info: Resolution: 1920x1080
+[2026-04-07 19:47:01.844]: Info: Name: HDMI-A-1
+[2026-04-07 19:47:01.844]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 19:47:01.844]: Info: Offset: 0x0
+[2026-04-07 19:47:01.844]: Info: Logical size: 1920x1080
+[2026-04-07 19:47:01.844]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
+[2026-04-07 19:47:01.844]: Info: Creating encoder [h264_nvenc]
+[2026-04-07 19:47:01.844]: Info: Color coding: SDR (Rec. 601)
+[2026-04-07 19:47:01.844]: Info: Color depth: 8-bit
+[2026-04-07 19:47:01.844]: Info: Color range: JPEG
+[2026-04-07 19:47:02.045]: Info: Streaming bitrate is 1000000
+[2026-04-07 19:47:02.135]: Info: Creating encoder [hevc_nvenc]
+[2026-04-07 19:47:02.135]: Info: Color coding: SDR (Rec. 601)
+[2026-04-07 19:47:02.135]: Info: Color depth: 8-bit
+[2026-04-07 19:47:02.135]: Info: Color range: JPEG
+[2026-04-07 19:47:02.137]: Info: Streaming bitrate is 1000000
+[2026-04-07 19:47:02.175]: Info: Creating encoder [av1_nvenc]
+[2026-04-07 19:47:02.175]: Info: Color coding: SDR (Rec. 601)
+[2026-04-07 19:47:02.175]: Info: Color depth: 8-bit
+[2026-04-07 19:47:02.175]: Info: Color range: JPEG
+[2026-04-07 19:47:02.177]: Info: Streaming bitrate is 1000000
+[2026-04-07 19:47:02.183]: Warning: [av1_nvenc @ 0x56299e2f8d40] Codec not supported
+[2026-04-07 19:47:02.183]: Error: [av1_nvenc @ 0x56299e2f8d40] Provided device doesn't support required NVENC features
+[2026-04-07 19:47:02.185]: Error: Could not open codec [av1_nvenc]: Function not implemented
+[2026-04-07 19:47:02.185]: Info: Screencasting with Wayland's protocol
+[2026-04-07 19:47:02.185]: Info: Found display [wayland-1]
+[2026-04-07 19:47:02.185]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-04-07 19:47:02.185]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-04-07 19:47:02.185]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-04-07 19:47:02.185]: Info: Found interface: wl_output(66) version 4
+[2026-04-07 19:47:02.186]: Info: Resolution: 1920x1080
+[2026-04-07 19:47:02.186]: Info: Name: HDMI-A-1
+[2026-04-07 19:47:02.186]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 19:47:02.186]: Info: Offset: 0x0
+[2026-04-07 19:47:02.186]: Info: Logical size: 1920x1080
+[2026-04-07 19:47:02.186]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
+[2026-04-07 19:47:02.186]: Info: Creating encoder [hevc_nvenc]
+[2026-04-07 19:47:02.186]: Info: Color coding: SDR (Rec. 709)
+[2026-04-07 19:47:02.186]: Info: Color depth: 10-bit
+[2026-04-07 19:47:02.186]: Info: Color range: JPEG
+[2026-04-07 19:47:02.187]: Info: Streaming bitrate is 1000000
+[2026-04-07 19:47:02.226]: Info: 
+[2026-04-07 19:47:02.226]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-04-07 19:47:02.226]: Info: 
+[2026-04-07 19:47:02.226]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-04-07 19:47:02.226]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-04-07 19:47:02.227]: Info: Starting system tray
+[2026-04-07 19:47:02.228]: Info: Configuration UI available at [https://localhost:47990]
+[2026-04-07 19:47:02.248]: Info: System tray created
+[2026-04-07 19:47:02.248]: Info: Starting main loop
+[2026-04-07 19:47:03.713]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:47:03.902]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:47:23.814]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:47:24.099]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:47:43.890]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:47:44.157]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:48:03.726]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:48:03.938]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:48:23.716]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:48:23.900]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:48:43.711]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:48:43.933]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:49:03.912]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:49:04.199]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:49:23.701]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:49:23.847]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:49:43.789]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:49:43.948]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:50:03.795]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:50:04.105]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:50:23.891]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:50:24.351]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:50:43.739]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:50:43.841]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:51:03.934]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:51:04.237]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:51:23.911]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:51:24.182]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:51:43.923]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:51:44.203]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:52:03.856]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:52:04.145]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:52:23.844]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:52:24.300]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:52:43.750]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:52:43.955]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:53:03.819]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:53:04.272]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:53:23.797]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:53:24.104]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:53:43.771]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:53:43.973]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:54:03.949]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:54:04.253]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:54:23.753]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:54:23.955]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:54:43.763]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:55:03.884]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:55:04.342]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:55:23.852]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:55:24.144]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:55:43.927]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:55:44.220]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:56:03.769]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:56:03.967]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:56:23.812]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:56:23.997]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:56:43.926]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:56:44.217]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:57:03.896]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:57:04.186]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:57:23.760]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:57:43.765]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:58:03.842]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:58:04.272]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:58:23.926]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:58:24.213]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:58:43.903]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:58:44.187]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:59:03.757]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:59:23.746]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:59:24.276]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 19:59:43.830]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 19:59:44.110]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:00:03.911]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:00:04.190]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:00:23.801]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:00:24.219]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:00:43.803]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:00:44.204]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:01:03.950]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:01:04.238]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:01:23.742]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:01:43.817]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:01:44.307]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:02:03.963]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:02:04.348]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:02:23.897]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:02:24.099]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 20:02:43.956]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 20:02:44.233]: Info: Avahi service cachyos-x8664 successfully established.
