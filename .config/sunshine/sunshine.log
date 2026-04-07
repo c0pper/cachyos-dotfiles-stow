@@ -1,433 +1,142 @@
-[2026-04-06 20:50:24.437]: Info: Sunshine version: 2025.924.154138 commit: 86188d47a7463b0f73b35de18a628353adeaa20e
-[2026-04-06 20:50:24.437]: Info: Package Publisher: LizardByte
-[2026-04-06 20:50:24.437]: Info: Publisher Website: https://app.lizardbyte.dev
-[2026-04-06 20:50:24.437]: Info: Get support: https://app.lizardbyte.dev/support
-[2026-04-06 20:50:24.713]: Error: Failed to create session: 
-[2026-04-06 20:50:24.713]: Info: Found display [wayland-1]
-[2026-04-06 20:50:24.713]: Info: Found interface: zxdg_output_manager_v1(9) version 3
-[2026-04-06 20:50:24.713]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
-[2026-04-06 20:50:24.713]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
-[2026-04-06 20:50:24.713]: Info: Found interface: wl_output(66) version 4
-[2026-04-06 20:50:24.714]: Info: Resolution: 1920x1080
-[2026-04-06 20:50:24.714]: Info: Name: HDMI-A-1
-[2026-04-06 20:50:24.714]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-06 20:50:24.714]: Info: Offset: 0x0
-[2026-04-06 20:50:24.714]: Info: Logical size: 1920x1080
-[2026-04-06 20:50:24.714]: Info: -------- Start of Wayland monitor list --------
-[2026-04-06 20:50:24.714]: Info: Monitor 0 is HDMI-A-1: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-06 20:50:24.714]: Info: --------- End of Wayland monitor list ---------
-[2026-04-06 20:50:24.745]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
-[2026-04-06 20:50:24.745]: Info: Trying encoder [nvenc]
-[2026-04-06 20:50:24.745]: Info: Screencasting with Wayland's protocol
-[2026-04-06 20:50:24.745]: Info: Found display [wayland-1]
-[2026-04-06 20:50:24.745]: Info: Found interface: zxdg_output_manager_v1(9) version 3
-[2026-04-06 20:50:24.745]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
-[2026-04-06 20:50:24.745]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
-[2026-04-06 20:50:24.745]: Info: Found interface: wl_output(66) version 4
-[2026-04-06 20:50:24.745]: Info: Resolution: 1920x1080
-[2026-04-06 20:50:24.745]: Info: Name: HDMI-A-1
-[2026-04-06 20:50:24.745]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-06 20:50:24.745]: Info: Offset: 0x0
-[2026-04-06 20:50:24.745]: Info: Logical size: 1920x1080
-[2026-04-06 20:50:24.745]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
-[2026-04-06 20:50:24.745]: Info: Creating encoder [h264_nvenc]
-[2026-04-06 20:50:24.745]: Info: Color coding: SDR (Rec. 601)
-[2026-04-06 20:50:24.745]: Info: Color depth: 8-bit
-[2026-04-06 20:50:24.745]: Info: Color range: JPEG
-[2026-04-06 20:50:24.892]: Info: Streaming bitrate is 1000000
-[2026-04-06 20:50:24.987]: Info: Creating encoder [hevc_nvenc]
-[2026-04-06 20:50:24.987]: Info: Color coding: SDR (Rec. 601)
-[2026-04-06 20:50:24.987]: Info: Color depth: 8-bit
-[2026-04-06 20:50:24.987]: Info: Color range: JPEG
-[2026-04-06 20:50:24.989]: Info: Streaming bitrate is 1000000
-[2026-04-06 20:50:25.026]: Info: Creating encoder [av1_nvenc]
-[2026-04-06 20:50:25.026]: Info: Color coding: SDR (Rec. 601)
-[2026-04-06 20:50:25.026]: Info: Color depth: 8-bit
-[2026-04-06 20:50:25.026]: Info: Color range: JPEG
-[2026-04-06 20:50:25.028]: Info: Streaming bitrate is 1000000
-[2026-04-06 20:50:25.034]: Warning: [av1_nvenc @ 0x55fe3bd24e00] Codec not supported
-[2026-04-06 20:50:25.034]: Error: [av1_nvenc @ 0x55fe3bd24e00] Provided device doesn't support required NVENC features
-[2026-04-06 20:50:25.036]: Error: Could not open codec [av1_nvenc]: Function not implemented
-[2026-04-06 20:50:25.036]: Info: Screencasting with Wayland's protocol
-[2026-04-06 20:50:25.036]: Info: Found display [wayland-1]
-[2026-04-06 20:50:25.037]: Info: Found interface: zxdg_output_manager_v1(9) version 3
-[2026-04-06 20:50:25.037]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
-[2026-04-06 20:50:25.037]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
-[2026-04-06 20:50:25.037]: Info: Found interface: wl_output(66) version 4
-[2026-04-06 20:50:25.037]: Info: Resolution: 1920x1080
-[2026-04-06 20:50:25.037]: Info: Name: HDMI-A-1
-[2026-04-06 20:50:25.037]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
-[2026-04-06 20:50:25.037]: Info: Offset: 0x0
-[2026-04-06 20:50:25.037]: Info: Logical size: 1920x1080
-[2026-04-06 20:50:25.037]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
-[2026-04-06 20:50:25.037]: Info: Creating encoder [hevc_nvenc]
-[2026-04-06 20:50:25.037]: Info: Color coding: SDR (Rec. 709)
-[2026-04-06 20:50:25.037]: Info: Color depth: 10-bit
-[2026-04-06 20:50:25.037]: Info: Color range: JPEG
-[2026-04-06 20:50:25.039]: Info: Streaming bitrate is 1000000
-[2026-04-06 20:50:25.079]: Info: 
-[2026-04-06 20:50:25.079]: Info: // Ignore any errors mentioned above, they are not relevant. //
-[2026-04-06 20:50:25.079]: Info: 
-[2026-04-06 20:50:25.079]: Info: Found H.264 encoder: h264_nvenc [nvenc]
-[2026-04-06 20:50:25.079]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
-[2026-04-06 20:50:25.079]: Info: Starting system tray
-[2026-04-06 20:50:25.081]: Info: Configuration UI available at [https://localhost:47990]
-[2026-04-06 20:50:25.102]: Info: System tray created
-[2026-04-06 20:50:25.102]: Info: Starting main loop
-[2026-04-06 20:50:29.657]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:50:29.902]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:50:49.803]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:50:50.073]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:51:09.779]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:51:10.026]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:51:29.751]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:51:30.059]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:51:49.733]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:51:49.934]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:52:09.674]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:52:09.933]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:52:29.661]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:52:29.924]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:52:49.799]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:52:50.084]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:53:09.658]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:53:09.835]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:53:29.707]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:53:29.987]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:53:49.682]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:53:49.835]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:54:09.657]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:54:09.859]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:54:29.736]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:54:30.104]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:54:49.818]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:54:50.133]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:55:09.740]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:55:10.087]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:55:29.820]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:55:30.327]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:55:49.794]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:55:50.292]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:56:09.699]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:56:09.960]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:56:29.640]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:56:29.951]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:56:49.631]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:56:49.886]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:57:09.704]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:57:09.959]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:57:29.683]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:57:29.935]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:57:49.756]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:57:50.085]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:58:09.677]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:58:09.943]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:58:29.820]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:58:30.261]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:58:49.711]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:58:49.961]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:59:09.838]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:59:10.336]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:59:29.877]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:59:30.170]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 20:59:49.860]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 20:59:50.349]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:00:09.688]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:00:09.938]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:00:29.826]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:00:30.323]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:00:49.707]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:00:49.958]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:01:09.876]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:01:10.344]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:01:29.808]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:01:30.088]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:01:49.708]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:01:49.953]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:02:09.662]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:02:09.909]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:02:29.666]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:02:49.765]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:02:50.002]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:03:09.715]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:03:09.952]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:03:29.758]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:03:29.993]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:03:49.777]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:03:50.050]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:04:09.868]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:04:10.146]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:04:29.783]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:04:30.092]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:04:49.717]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:04:49.942]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:05:09.746]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:05:10.163]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:05:29.759]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:05:30.089]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:05:49.761]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:05:49.979]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:06:09.689]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:06:09.921]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:06:29.708]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:06:29.917]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:06:49.811]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:06:50.364]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:07:09.790]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:07:10.089]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:07:29.832]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:07:30.297]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:07:49.785]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:07:50.213]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:08:09.798]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:08:10.245]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:08:29.871]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:08:30.138]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:08:49.934]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:08:50.089]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:09:09.747]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:09:09.949]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:09:29.934]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:09:30.088]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:09:49.843]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:09:50.055]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:10:09.817]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:10:10.013]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:10:29.831]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:10:30.023]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:10:49.939]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:10:50.235]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:11:09.930]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:11:10.223]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:11:29.828]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:11:30.088]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:11:49.725]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:12:09.909]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:12:10.088]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:12:29.936]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:12:30.233]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:12:49.776]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:12:49.961]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:13:09.917]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:13:10.204]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:13:29.947]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:13:30.238]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:13:49.913]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:13:50.203]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:14:09.755]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:14:29.773]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:14:29.950]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:14:49.753]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:14:50.090]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:15:09.795]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:15:09.971]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:15:29.965]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:15:30.266]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:15:49.760]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:16:09.837]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:16:10.137]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:16:29.917]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:16:30.134]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:16:49.772]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:16:50.174]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:17:09.722]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:17:10.025]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:17:29.920]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:17:30.219]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:17:49.810]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:17:50.109]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:18:09.895]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:18:10.193]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:18:29.780]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:18:49.806]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:18:49.982]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:19:09.807]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:19:09.974]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:19:29.846]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:19:30.141]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:19:49.826]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:19:50.228]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:20:09.822]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:20:10.116]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:20:29.969]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:20:30.257]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:20:49.869]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:20:50.208]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:21:09.862]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:21:10.150]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:21:29.979]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:21:30.095]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:21:49.888]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:21:50.180]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:22:09.812]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:22:10.218]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:22:29.911]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:22:30.201]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:22:49.907]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:22:50.233]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:23:09.817]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:23:10.218]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:23:29.798]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:23:30.188]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:23:49.917]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:23:50.204]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:24:09.827]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:24:10.222]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:24:29.996]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:24:30.290]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:24:50.004]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:24:50.552]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:25:09.946]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:25:10.258]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:25:29.927]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:25:30.179]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:25:49.932]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:25:50.244]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:26:10.000]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:26:10.301]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:26:29.892]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:26:30.093]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:26:49.950]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:26:50.249]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:27:09.979]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:27:10.299]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:27:29.895]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:27:30.194]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:27:49.815]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:27:50.190]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:28:09.783]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:28:10.147]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:28:29.793]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:28:30.164]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:28:49.990]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:28:50.303]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:29:09.877]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:29:10.175]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:29:29.957]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:29:30.134]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:29:49.821]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:29:50.188]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:30:09.853]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:30:10.219]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:30:30.010]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:30:30.301]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:30:49.869]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:30:50.235]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:31:09.850]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:31:10.221]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:31:29.881]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:31:30.092]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:31:50.009]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:31:50.294]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:32:10.026]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:32:10.316]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:32:29.829]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:32:30.121]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:32:50.023]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:32:50.343]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:33:09.994]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:33:10.282]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:33:29.847]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:33:30.130]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:33:49.940]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:33:50.225]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:34:09.895]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:34:10.153]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:34:30.046]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:34:30.343]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:34:49.871]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:34:50.159]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:35:09.995]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:35:10.345]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:35:30.002]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:35:30.298]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:35:49.852]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:35:50.343]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:36:09.845]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:36:10.141]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:36:30.010]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:36:30.306]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:36:49.906]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:36:50.201]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:37:09.946]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:37:10.239]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:37:29.977]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:37:30.269]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:37:49.911]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:37:50.207]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:38:09.991]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:38:10.284]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:38:29.970]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:38:30.262]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:38:50.056]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:38:50.344]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:39:10.018]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:39:10.309]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:39:29.890]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:39:30.177]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:39:49.999]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:39:50.214]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:40:09.864]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:40:10.154]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:40:30.064]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:40:30.801]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:40:49.917]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:40:50.202]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:41:09.971]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:41:10.253]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:41:29.896]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:41:30.161]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:41:50.034]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:41:50.562]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:42:09.879]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:42:10.158]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:42:30.080]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:42:30.347]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:42:50.080]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:42:50.597]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:43:10.031]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:43:10.318]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:43:29.922]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:43:30.208]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:43:50.042]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:43:50.329]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:44:09.994]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:44:10.278]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:44:29.937]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:44:30.221]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:44:49.945]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:44:50.230]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:45:09.958]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:45:10.241]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:45:30.057]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:45:30.591]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:45:49.958]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:45:50.245]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:46:09.996]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:46:10.282]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:46:30.069]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:46:30.599]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:46:49.875]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:46:50.157]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:47:09.979]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:47:10.264]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:47:30.023]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:47:30.304]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:47:50.077]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:47:50.350]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:48:09.947]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:48:10.225]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:48:30.087]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:48:30.599]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:48:50.030]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:48:50.306]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:49:09.938]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:49:10.214]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:49:29.958]: Info: Adding avahi service cachyos-x8664
-[2026-04-06 21:49:30.233]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-06 21:49:36.841]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 10:12:41.351]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 10:12:48.347]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 10:12:48.348]: Info: Avahi service cachyos-x8664 successfully established.
-[2026-04-07 10:12:50.966]: Info: Adding avahi service cachyos-x8664
-[2026-04-07 10:12:51.744]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:03:27.643]: Info: Sunshine version: 2025.924.154138 commit: 86188d47a7463b0f73b35de18a628353adeaa20e
+[2026-04-07 18:03:27.643]: Info: Package Publisher: LizardByte
+[2026-04-07 18:03:27.643]: Info: Publisher Website: https://app.lizardbyte.dev
+[2026-04-07 18:03:27.643]: Info: Get support: https://app.lizardbyte.dev/support
+[2026-04-07 18:03:27.939]: Error: Failed to create session: 
+[2026-04-07 18:03:27.939]: Info: Found display [wayland-1]
+[2026-04-07 18:03:27.939]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-04-07 18:03:27.939]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-04-07 18:03:27.939]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-04-07 18:03:27.939]: Info: Found interface: wl_output(66) version 4
+[2026-04-07 18:03:27.939]: Info: Resolution: 1920x1080
+[2026-04-07 18:03:27.939]: Info: Name: HDMI-A-1
+[2026-04-07 18:03:27.939]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 18:03:27.939]: Info: Offset: 0x0
+[2026-04-07 18:03:27.939]: Info: Logical size: 1920x1080
+[2026-04-07 18:03:27.939]: Info: -------- Start of Wayland monitor list --------
+[2026-04-07 18:03:27.939]: Info: Monitor 0 is HDMI-A-1: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 18:03:27.939]: Info: --------- End of Wayland monitor list ---------
+[2026-04-07 18:03:28.065]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-04-07 18:03:28.065]: Info: Trying encoder [nvenc]
+[2026-04-07 18:03:28.065]: Info: Screencasting with Wayland's protocol
+[2026-04-07 18:03:28.065]: Info: Found display [wayland-1]
+[2026-04-07 18:03:28.065]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-04-07 18:03:28.065]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-04-07 18:03:28.065]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-04-07 18:03:28.065]: Info: Found interface: wl_output(66) version 4
+[2026-04-07 18:03:28.065]: Info: Resolution: 1920x1080
+[2026-04-07 18:03:28.065]: Info: Name: HDMI-A-1
+[2026-04-07 18:03:28.065]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 18:03:28.065]: Info: Offset: 0x0
+[2026-04-07 18:03:28.065]: Info: Logical size: 1920x1080
+[2026-04-07 18:03:28.065]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
+[2026-04-07 18:03:28.065]: Info: Creating encoder [h264_nvenc]
+[2026-04-07 18:03:28.065]: Info: Color coding: SDR (Rec. 601)
+[2026-04-07 18:03:28.065]: Info: Color depth: 8-bit
+[2026-04-07 18:03:28.065]: Info: Color range: JPEG
+[2026-04-07 18:03:28.284]: Info: Streaming bitrate is 1000000
+[2026-04-07 18:03:28.374]: Info: Creating encoder [hevc_nvenc]
+[2026-04-07 18:03:28.374]: Info: Color coding: SDR (Rec. 601)
+[2026-04-07 18:03:28.374]: Info: Color depth: 8-bit
+[2026-04-07 18:03:28.374]: Info: Color range: JPEG
+[2026-04-07 18:03:28.376]: Info: Streaming bitrate is 1000000
+[2026-04-07 18:03:28.412]: Info: Creating encoder [av1_nvenc]
+[2026-04-07 18:03:28.412]: Info: Color coding: SDR (Rec. 601)
+[2026-04-07 18:03:28.412]: Info: Color depth: 8-bit
+[2026-04-07 18:03:28.412]: Info: Color range: JPEG
+[2026-04-07 18:03:28.414]: Info: Streaming bitrate is 1000000
+[2026-04-07 18:03:28.420]: Warning: [av1_nvenc @ 0x55924c07be00] Codec not supported
+[2026-04-07 18:03:28.420]: Error: [av1_nvenc @ 0x55924c07be00] Provided device doesn't support required NVENC features
+[2026-04-07 18:03:28.422]: Error: Could not open codec [av1_nvenc]: Function not implemented
+[2026-04-07 18:03:28.422]: Info: Screencasting with Wayland's protocol
+[2026-04-07 18:03:28.422]: Info: Found display [wayland-1]
+[2026-04-07 18:03:28.423]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-04-07 18:03:28.423]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-04-07 18:03:28.423]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-04-07 18:03:28.423]: Info: Found interface: wl_output(66) version 4
+[2026-04-07 18:03:28.423]: Info: Resolution: 1920x1080
+[2026-04-07 18:03:28.423]: Info: Name: HDMI-A-1
+[2026-04-07 18:03:28.423]: Info: Found monitor: LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)
+[2026-04-07 18:03:28.423]: Info: Offset: 0x0
+[2026-04-07 18:03:28.423]: Info: Logical size: 1920x1080
+[2026-04-07 18:03:28.423]: Info: Selected monitor [LG Electronics LG FULL HD 0x01010101 (HDMI-A-1)] for streaming
+[2026-04-07 18:03:28.423]: Info: Creating encoder [hevc_nvenc]
+[2026-04-07 18:03:28.423]: Info: Color coding: SDR (Rec. 709)
+[2026-04-07 18:03:28.423]: Info: Color depth: 10-bit
+[2026-04-07 18:03:28.423]: Info: Color range: JPEG
+[2026-04-07 18:03:28.425]: Info: Streaming bitrate is 1000000
+[2026-04-07 18:03:28.468]: Info: 
+[2026-04-07 18:03:28.468]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-04-07 18:03:28.468]: Info: 
+[2026-04-07 18:03:28.468]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2026-04-07 18:03:28.468]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2026-04-07 18:03:28.469]: Info: Starting system tray
+[2026-04-07 18:03:28.470]: Info: Configuration UI available at [https://localhost:47990]
+[2026-04-07 18:03:28.498]: Info: System tray created
+[2026-04-07 18:03:28.498]: Info: Starting main loop
+[2026-04-07 18:03:30.216]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:03:30.489]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:03:50.309]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:03:50.581]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:04:10.347]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:04:10.836]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:04:30.270]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:04:30.471]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:04:50.319]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:04:50.818]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:05:10.340]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:05:10.838]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:05:30.256]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:05:30.536]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:05:50.180]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:05:50.406]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:06:10.269]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:06:10.608]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:06:30.385]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:06:30.687]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:06:50.167]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:06:50.340]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:07:10.165]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:07:10.328]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:07:30.342]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:07:30.849]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:07:50.319]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:07:50.781]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:08:10.358]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:08:11.136]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:08:30.224]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:08:30.462]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:08:50.322]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:08:50.808]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:09:10.300]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:09:10.584]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:09:30.272]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:09:30.842]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:09:50.201]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:09:50.435]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:10:10.389]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:10:10.687]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:10:30.387]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:10:30.837]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:10:50.287]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:10:50.715]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:11:10.329]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:11:10.808]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:11:30.212]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:11:30.433]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:11:50.177]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:11:50.468]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:12:10.376]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:12:10.653]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:12:30.391]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:12:30.661]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:12:50.350]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:12:50.712]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:13:10.261]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:13:10.471]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:13:30.380]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:13:30.701]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:13:50.372]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:13:50.831]: Info: Avahi service cachyos-x8664 successfully established.
+[2026-04-07 18:14:10.234]: Info: Adding avahi service cachyos-x8664
+[2026-04-07 18:14:10.446]: Info: Avahi service cachyos-x8664 successfully established.
