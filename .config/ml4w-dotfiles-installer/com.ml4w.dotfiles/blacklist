@@ -1,0 +1,5 @@
+# Blacklist Example
+.config/hypr/conf/keyboard.conf
+.config/hypr/conf/custom.conf
+.config/waybar/themes/simon/
+.config/waybar/scripts/
