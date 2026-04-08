@@ -16,3 +16,5 @@ function y
 	end
 	rm -f -- "$tmp"
 end
+
+zoxide init fish | source

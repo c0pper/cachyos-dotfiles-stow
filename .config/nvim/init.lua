@@ -130,10 +130,15 @@ vim.keymap.set("n", "<leader>bn", ":bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<leader>bp", ":bprevious<CR>", { desc = "Previous buffer" })
 
 -- Better window navigation
-vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move to left window" })
-vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to bottom window" })
-vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move to top window" })
-vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move to right window" })
+--vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move to left window" })
+--vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to bottom window" })
+--vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move to top window" })
+--vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move to right window" })
+-- Better window navigation but for tmux
+vim.keymap.set("n", "<C-h>", "<cmd>TmuxNavigateLeft<CR>", { desc = "window left" })
+vim.keymap.set("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>", { desc = "window down" })
+vim.keymap.set("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>", { desc = "window up" })
+vim.keymap.set("n", "<C-l>", "<cmd>TmuxNavigateRight<CR>", { desc = "window right" })
 
 -- Splitting & Resizing
 vim.keymap.set("n", "<leader>sv", ":vsplit<CR>", { desc = "Split window vertically" })
