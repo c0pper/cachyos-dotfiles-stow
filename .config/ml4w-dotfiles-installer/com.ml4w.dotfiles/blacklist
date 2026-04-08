@@ -3,3 +3,4 @@
 .config/hypr/conf/custom.conf
 .config/waybar/themes/simon/
 .config/waybar/scripts/
+.config/fastfetch/config.jsonc
