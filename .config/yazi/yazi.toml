@@ -4,6 +4,7 @@ show_hidden = true
 sort_by = "natural"
 sort_dir_first = true
 scrolloff = 10
+linemode = "size"
 
 [preview]
 wrap = "yes"
