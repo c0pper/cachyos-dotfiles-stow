@@ -1,6 +1,9 @@
 # Blacklist Example
 .config/hypr/conf/keyboard.conf
+.config/hypr/conf/keybindings/default.conf
+.config/hypr/scripts/screenshot.sh
 .config/hypr/conf/custom.conf
 .config/waybar/themes/simon/
 .config/waybar/scripts/
 .config/fastfetch/config.jsonc
+.config/hypr/hyprlock.conf
