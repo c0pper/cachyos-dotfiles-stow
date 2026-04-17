@@ -14,6 +14,7 @@ require("bunny"):setup({
     { key = "d",          path = "~/dotfiles",              desc = "Dotfiles"         },
     { key = { "m", "d" },          path = "/media/simo/DATA",      desc = "DATA-HDD"      },
     { key = { "m", "s" },          path = "/media/simo/DATA_SSD",      desc = "DATA-SDD"      },
+    { key = { "m", "c" },          path = "/media/simo/DATA_SSD/code",      desc = "DATA-SDD code"      },
     { key = "c",          path = "~/.config",      desc = "Config files" },
     { key = { "l", "s" }, path = "~/.local/share", desc = "Local share"  },
     { key = { "l", "b" }, path = "~/.local/bin",   desc = "Local bin"    },

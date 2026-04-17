@@ -10,6 +10,13 @@
       "models": {
         "qwen/qwen3.5-9b": {
           "name": "qwen3.5-9b"
+        },
+        "lmstudio-community/gemma-4-26b-a4b-it": {
+          "name": "gemma-4-26b-a4b-it",
+          "limit": {
+            "context": 10000,
+            "output": 5000
+          }
         }
       }
     }
