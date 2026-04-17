@@ -28,5 +28,15 @@ use = "Lil-Dank/lazygit"
 rev = "8c4086c"
 hash = "85316b5e9abeae2531d3e5d02a094381"
 
+[[plugin.deps]]
+use = "uhs-robert/recycle-bin"
+rev = "fa68711"
+hash = "8714306b5cac6359edbacbf545fbd691"
+
+[[plugin.deps]]
+use = "stelcodes/bunny"
+rev = "71b14a3"
+hash = "18a2829738214fe9bca99a2fef19113d"
+
 [flavor]
 deps = []
