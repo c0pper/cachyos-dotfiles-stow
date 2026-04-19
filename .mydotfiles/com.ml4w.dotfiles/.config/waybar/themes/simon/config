@@ -19,7 +19,7 @@
         "custom/appmenu",
         "hyprland/workspaces",
         //"group/quicklinks",
-        "hyprland/window",
+        //"hyprland/window",
         "custom/music"
     ],
     // Modules Center
