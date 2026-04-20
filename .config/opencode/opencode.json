@@ -65,7 +65,11 @@
   "mcp": {
     "qmd": {
       "type": "local",
-      "command": ["qmd mcp"]
+      "command": ["/usr/bin/qmd", "mcp"],
+      "environment": {
+        "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+      },
+      "enabled": true
     }
   }
 }
