@@ -91,7 +91,23 @@ return {
       "nvim-tree/nvim-web-devicons", -- optional, but recommended
     },
     lazy = false, -- neo-tree will lazily load itself
-  }
+  },
+
+    {
+      "gbprod/cutlass.nvim",
+      opts = {
+		{
+			cut_key = "x",
+			override_del = nil,
+			exclude = {},
+			registers = {
+			select = "_",
+			delete = "_",
+			change = "_",
+		 },
+		}
+      }
+    }
 }
 
 
