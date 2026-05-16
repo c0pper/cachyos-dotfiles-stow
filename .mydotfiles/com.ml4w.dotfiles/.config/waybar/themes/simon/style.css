@@ -605,6 +605,7 @@ tooltip {
     background: @background; /* subtle background for the module */
     border-radius: 8px;
     color: @on_surface;
+    font-family: "JetBrains Mono", "Fira Code", monospace;
 }
 
 /* -----------------------------------------------------

@@ -16,6 +16,7 @@ require("bunny"):setup({
     { key = { "m", "s" },          path = "/media/simo/DATA_SSD",      desc = "DATA-SDD"      },
     { key = { "m", "c" },          path = "/media/simo/DATA_SSD/code",      desc = "DATA-SDD code"      },
     { key = { "c", "h" },          path = "~/.config/hypr",      desc = "hypr conf"      },
+    { key = { "m", "l" }, path = "/mnt/media_library", desc = "Media library"  },
     { key = { "l", "s" }, path = "~/.local/share", desc = "Local share"  },
     { key = { "l", "b" }, path = "~/.local/bin",   desc = "Local bin"    },
     -- key and path attributes are required, desc is optional
